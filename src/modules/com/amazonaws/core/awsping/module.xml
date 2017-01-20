@@ -2,8 +2,6 @@
 
   <resources>
     <resource-root path="aws-java-sdk-core-${version.com.amazonaws.api}.jar"/>
-    <resource-root path="jackson-dataformat-cbor-${version.com.fasterxml.jackson.dataformat.cbor}.jar"/>
-    <resource-root path="jmespath-java-${version.com.amazonaws.jmespath}.jar"/>
   </resources>
 
   <dependencies>

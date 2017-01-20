@@ -78,18 +78,6 @@
                   <version>${version.com.amazonaws.api}</version>
                   <type>jar</type>
                 </artifactItem>
-                <artifactItem>
-                  <groupId>com.amazonaws</groupId>
-                  <artifactId>jmespath-java</artifactId>
-                  <version>${version.com.amazonaws.jmespath}</version>
-                  <type>jar</type>
-                </artifactItem>
-                <artifactItem>
-                  <groupId>com.fasterxml.jackson.dataformat</groupId>
-                  <artifactId>jackson-dataformat-cbor</artifactId>
-                  <version>${version.com.fasterxml.jackson.dataformat.cbor}</version>
-                  <type>jar</type>
-                </artifactItem>
               </artifactItems>
             </configuration>
           </execution>
@@ -156,7 +144,7 @@
     </plugins>
   </build>
   <properties>
-    <version.com.amazonaws.api>1.11.32</version.com.amazonaws.api>
+    <version.com.amazonaws.api>1.10.40</version.com.amazonaws.api>
     <version.com.amazonaws.jmespath>1.0</version.com.amazonaws.jmespath>
     <version.com.meltmedia.jgroups>1.4.0</version.com.meltmedia.jgroups>
     <version.com.fasterxml.jackson.dataformat.cbor>2.6.6</version.com.fasterxml.jackson.dataformat.cbor>
